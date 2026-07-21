@@ -190,8 +190,11 @@ class Notifier:
                             self._bzz_mess_id = 0
 
                     # Fixme: check if media in message!
-                    await self._status_message.edit_media(media=InputMediaPhoto(photo))
-                    await self._status_message.edit_caption(caption=message, parse_mode=ParseMode.MARKDOWN_V2)
+                    if self._status_message.photo:
+                        await self._status_message.edit_media(media=InputMediaPhoto(photo))
+                        await self._status_message.edit_caption(caption=message, parse_mode=ParseMode.MARKDOWN_V2)
+                    else:
+                        await self._status_message.edit_text(text=message, parse_mode=ParseMode.MARKDOWN_V2)
 
                     if self._progress_update_message:
                         mes = await self._bot.send_message(self._chat_id, text="Status has been updated\nThis message will be deleted", disable_notification=silent)
@@ -213,8 +216,11 @@ class Notifier:
                 await self._bot.send_chat_action(chat_id=group, message_thread_id=message_thread_id, action=ChatAction.UPLOAD_PHOTO)
                 if group in self._groups_status_mesages and not manual:
                     mess = self._groups_status_mesages[group]
-                    await mess.edit_media(media=InputMediaPhoto(photo))
-                    await mess.edit_caption(caption=message, parse_mode=ParseMode.MARKDOWN_V2)
+                    if mess.photo:
+                        await mess.edit_media(media=InputMediaPhoto(photo))
+                        await mess.edit_caption(caption=message, parse_mode=ParseMode.MARKDOWN_V2)
+                    else:
+                        await mess.edit_text(text=message, parse_mode=ParseMode.MARKDOWN_V2)
                 else:
                     sent_message = await self._bot.send_photo(
                         chat_id=group,

@@ -149,7 +149,7 @@ async def unknown_chat(update: Update, _: ContextTypes.DEFAULT_TYPE) -> None:
 async def status_no_confirm(effective_message: Message) -> None:
     if klippy.printing and not configWrap.notifications.group_only:
         notifier.update_status()
-        time.sleep(configWrap.camera.light_timeout + 1.5)
+        await asyncio.sleep(configWrap.camera.light_timeout + 1.5)
         await effective_message.delete()
     else:
         mess = await klippy.get_status()

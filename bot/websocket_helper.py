@@ -195,7 +195,6 @@ class WebSocketHelper:
                 self._notifier.m117_status = message_params_loc["display_status"]["message"]
             if "progress" in message_params_loc["display_status"]:
                 self._klippy.printing_progress = message_params_loc["display_status"]["progress"]
-                self._notifier.schedule_notification(progress=int(message_params_loc["display_status"]["progress"] * 100))
 
         if "toolhead" in message_params_loc and "position" in message_params_loc["toolhead"]:
             # position_z = json_message["params"][0]['toolhead']['position'][2]
@@ -208,6 +207,9 @@ class WebSocketHelper:
 
         if "virtual_sdcard" in message_params_loc and "progress" in message_params_loc["virtual_sdcard"]:
             self._klippy.vsd_progress = message_params_loc["virtual_sdcard"]["progress"]
+
+        if "display_status" in message_params_loc or "virtual_sdcard" in message_params_loc:
+            self._notifier.schedule_notification(progress=int(self._klippy.printing_progress * 100))
 
         if "print_stats" in message_params_loc:
             await self.parse_print_stats(message_params)

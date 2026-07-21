@@ -119,7 +119,7 @@ class Klippy:
         self.state_message: str = ""
 
         self.printing_duration: float = 0.0
-        self.printing_progress: float = 0.0
+        self._printing_progress: float = 0.0
         self.printing_height: float = 0.0
         self._printing_filename: str = ""
         self.file_estimated_time: float = 0.0
@@ -249,7 +249,7 @@ class Klippy:
 
     def _reset_file_info(self) -> None:
         self.printing_duration = 0.0
-        self.printing_progress = 0.0
+        self._printing_progress = 0.0
         self.printing_height = 0.0
         self._printing_filename = ""
         self.file_estimated_time = 0.0
@@ -264,6 +264,14 @@ class Klippy:
     @property
     def printing_filename(self) -> str:
         return self._printing_filename
+
+    @property
+    def printing_progress(self) -> float:
+        return self._printing_progress if self._printing_progress > 0.0 else self.vsd_progress
+
+    @printing_progress.setter
+    def printing_progress(self, val: float):
+        self._printing_progress = val
 
     async def set_printing_filename(self, new_value: str):
         if not new_value:
@@ -392,7 +400,7 @@ class Klippy:
             except Exception as ex:
                 logger.error(ex, exc_info=True)
             retries += 1
-            time.sleep(1)
+            await asyncio.sleep(1)
         return f"Connection failed. {last_reason}"
 
     def update_sensor(self, name: str, value) -> None:
