@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "code-craft",
+  "checksum": "55d1ed09eb9e3afd13e29561e6b5a1b35bf58a711b5123777866390db2676ecc",
+  "installedAt": "2026-07-21T03:13:26.773Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

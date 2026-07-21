@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "smart-router",
+  "checksum": "ae2df21290a3e76fc6241ca6e9b5bf89a375fa2642972a2044d7cf61923c5eca",
+  "installedAt": "2026-07-21T03:13:27.809Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

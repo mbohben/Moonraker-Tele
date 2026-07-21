@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "doc-templates",
+  "checksum": "fd7231aefe823b22b82fd21d31a4c816d26f1786351c0b849e9e87be64df55e2",
+  "installedAt": "2026-07-21T03:13:27.240Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

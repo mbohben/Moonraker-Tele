@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "knowledge-graph",
+  "checksum": "cca02e4c9cd916076a17c4cd9b3df1ffb0d76aaef0f5e651a32786d0a649bc5c",
+  "installedAt": "2026-07-21T03:13:26.849Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

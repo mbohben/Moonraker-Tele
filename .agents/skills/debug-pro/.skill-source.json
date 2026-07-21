@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "debug-pro",
+  "checksum": "d224e9f8cafcaaa7f56da20eb1715bd7f0f919927fb121916d2fb93439fdeb49",
+  "installedAt": "2026-07-21T03:13:28.028Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "tailwind-kit",
+  "checksum": "55d14f13e7a428ab13adc0d6128978719e58606b00e566bd5678b4ff4d1ea5b2",
+  "installedAt": "2026-07-21T03:13:27.182Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

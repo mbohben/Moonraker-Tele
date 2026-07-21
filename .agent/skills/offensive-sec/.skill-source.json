@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "offensive-sec",
+  "checksum": "84084bc43ee372d3ea4fdfaf3a3afde91c37b0a7aff2e1ae5c9fdc7d9e809f87",
+  "installedAt": "2026-07-21T03:13:27.672Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

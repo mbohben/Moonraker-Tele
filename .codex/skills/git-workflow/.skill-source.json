@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "git-workflow",
+  "checksum": "7fca51daedb579c6b61ac3afdb9dbf21af79782a33188c33ba25b32d8c64b874",
+  "installedAt": "2026-07-21T03:13:26.814Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

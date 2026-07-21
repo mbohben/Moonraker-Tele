@@ -1,0 +1,6 @@
+[role]
+[context]
+[task]
+[format]
+[constraints]
+[examples]

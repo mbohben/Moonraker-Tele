@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "vercel-deploy",
+  "checksum": "510e1c3b7a1441aa16525ec7002f69590841181de99a781879997f670eecf5db",
+  "installedAt": "2026-07-21T03:13:27.724Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

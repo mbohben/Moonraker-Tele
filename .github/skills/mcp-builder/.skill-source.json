@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "mcp-builder",
+  "checksum": "1f0d15136f0c21fa7ca66f54e800caed50619c6f740a7c257b188c813abac80c",
+  "installedAt": "2026-07-21T03:13:27.020Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

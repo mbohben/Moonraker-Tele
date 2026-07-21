@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "mobile-developer",
+  "checksum": "c8d7a7ffd35f284b780cfb058504352af9c64336b3dbadbb44daba0ffd475762",
+  "installedAt": "2026-07-21T03:13:27.608Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

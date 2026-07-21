@@ -1,0 +1,25 @@
+# Sections
+
+This file defines all sections, their ordering, impact levels, and descriptions.
+The section ID (in parentheses) is the filename prefix used to group rules.
+
+---
+
+## 1. Cli (cli)
+
+**Impact:** LOW  
+**Description:** Cli patterns and best practices.
+
+## 2. Engineering Specification (engineering)
+
+**Impact:** MEDIUM  
+**Description:** Full engineering specification covering contracts, security, and scalability.
+
+## 3. General (general)
+
+**Impact:** LOW  
+**Description:** General patterns and best practices.
+
+---
+
+⚡ PikaKit v3.9.206

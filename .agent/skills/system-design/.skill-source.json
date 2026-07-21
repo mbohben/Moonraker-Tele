@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "system-design",
+  "checksum": "8b7bfea384ad1c14b83b5cabcc3af76154e3c1d03dca2a4f2beb4c253fd7e7df",
+  "installedAt": "2026-07-21T03:13:26.964Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

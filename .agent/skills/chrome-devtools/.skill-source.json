@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "chrome-devtools",
+  "checksum": "90502829bc4291d67e3873eace2f728ec62ec53a967f8a86f842fa3afe810b7d",
+  "installedAt": "2026-07-21T03:13:26.690Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

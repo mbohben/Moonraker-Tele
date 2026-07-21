@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "api-architect",
+  "checksum": "3911a0135045f43ac32416c7b3ad5afa953ccc088422766bfbcea765ef750f1c",
+  "installedAt": "2026-07-21T03:13:26.676Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

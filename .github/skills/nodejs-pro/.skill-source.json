@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "nodejs-pro",
+  "checksum": "a0eed77e4192c6d4b705085195b1a06b1a8285f1907e126132deeefd01fd8c69",
+  "installedAt": "2026-07-21T03:13:26.893Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

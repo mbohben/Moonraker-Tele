@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "google-adk-python",
+  "checksum": "7eb75c50e2bf6b292c4e6fc7e4223c82cd6da480131fe943d7e76689c3759c82",
+  "installedAt": "2026-07-21T03:13:26.828Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

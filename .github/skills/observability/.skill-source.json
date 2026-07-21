@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "observability",
+  "checksum": "16357b3f9ea9264548d891f53970600d1beec52f779204fc433daffbeef0cf3c",
+  "installedAt": "2026-07-21T03:13:26.904Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

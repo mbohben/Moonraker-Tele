@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "cicd-pipeline",
+  "checksum": "69705ec5bbe5ce294cb7c042d826251ab030ef7696ac0f9ca4f09d91c0ae0776",
+  "installedAt": "2026-07-21T03:13:27.630Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

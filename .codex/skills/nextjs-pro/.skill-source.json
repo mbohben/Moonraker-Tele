@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "nextjs-pro",
+  "checksum": "5a038ef61858874afedcdd86113f2809743203639707a0e303c4a3be64077ef4",
+  "installedAt": "2026-07-21T03:13:27.090Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

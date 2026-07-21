@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "e2e-automation",
+  "checksum": "006e7724d44b74747c97a9376fa91d642cd05afcc6e6b645c9f1215ac9dfeac0",
+  "installedAt": "2026-07-21T03:13:28.044Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

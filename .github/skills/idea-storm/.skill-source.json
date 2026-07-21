@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "idea-storm",
+  "checksum": "2bfc325a6b3c7a08cea5ae54e2492ae65da49dfc45f3ce329a150b416b6af302",
+  "installedAt": "2026-07-21T03:13:27.255Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

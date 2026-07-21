@@ -1,0 +1,156 @@
+# Doctrine Scope Map
+# Maps change scopes to applicable doctrines.
+# Used by agents to automatically determine
+# which doctrines MUST be enforced for a given request.
+
+version: 1.0.0
+status: LOCKED
+authority: SUPREME
+
+scopes:
+
+  architecture:
+    description: >
+      System-level architecture, boundaries, ownership,
+      dependency direction, and scalability decisions.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - commercial-guardrails-doctrine
+    examples:
+      - system boundaries
+      - ownership changes
+      - dependency inversion
+      - scalability design
+      - cross-layer coupling
+
+  backend-data:
+    description: >
+      Backend data ingestion, normalization,
+      persistence, caching, and cost control.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - backend-data-engine-doctrine
+      - data-integrity-doctrine
+      - performance-doctrine
+    examples:
+      - data ingestion pipelines
+      - cron jobs
+      - caching logic
+      - database schema changes
+      - persistence rules
+
+  data-integrity:
+    description: >
+      Data integrity, historical truth,
+      aggregation, and visualization integrity.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - data-integrity-doctrine
+      - performance-doctrine
+    examples:
+      - chart rendering
+      - timeframe aggregation
+      - historical data corrections
+      - visualization logic
+
+  frontend-mobile:
+    description: >
+      Mobile layout, scroll ownership,
+      structural hierarchy, and UX invariants.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - frontend-mobile-doctrine
+      - performance-doctrine
+    examples:
+      - mobile layout changes
+      - header / tab bar structure
+      - scroll containers
+      - sticky behavior
+
+  interactions:
+    description: >
+      Swipe, touch gestures, and navigation interaction.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - frontend-mobile-doctrine
+      - interaction-patterns-doctrine
+      - performance-doctrine
+    examples:
+      - swipe tabs
+      - gesture arbitration
+      - horizontal navigation
+      - touch handling
+
+  performance:
+    description: >
+      Rendering speed, caching behavior,
+      loading states, and perceived performance.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - performance-doctrine
+    examples:
+      - loading strategy
+      - cache invalidation
+      - background refresh
+      - render optimization
+
+  commercial-risk:
+    description: >
+      Changes affecting user trust, revenue,
+      legal exposure, or operational safety.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - commercial-guardrails-doctrine
+    examples:
+      - breaking changes
+      - migrations
+      - irreversible operations
+      - compliance-impacting changes
+
+  code-review:
+    description: >
+      Review decisions, enforcement,
+      approval or rejection logic.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - code-review-doctrine
+    examples:
+      - PR approval
+      - rejection decisions
+      - enforcement escalation
+
+  ai-agents:
+    description: >
+      AI agent behavior, learning,
+      autonomy, and enforcement.
+    applies:
+      - master-constitution
+      - architecture-doctrine
+      - learning-engine-doctrine
+      - agent-enforcement-protocol
+    examples:
+      - AI-generated code
+      - automated refactors
+      - agent learning behavior
+      - agent refusal or escalation
+
+default_behavior:
+  rule: conservative
+  description: >
+    If scope cannot be confidently determined,
+    ALL doctrines MUST be applied and
+    explicit human review is required.
+
+failure_mode:
+  rule: reject
+  description: >
+    If scope mapping is ambiguous or incomplete,
+    the change MUST be rejected.

@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "data-modeler",
+  "checksum": "6f504277f828b160633e280977da40a4345f7e0c49e30d1591d8abe645a65990",
+  "installedAt": "2026-07-21T03:13:26.804Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

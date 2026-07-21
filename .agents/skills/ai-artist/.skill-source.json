@@ -1,0 +1,16 @@
+{
+  "repo": "pikakit / agent-skills",
+  "ref": null,
+  "skillName": "ai-artist",
+  "checksum": "9c27393702b834a93aa35c3b26687b7ac7437666429be511eff9c3bba3ab703b",
+  "installedAt": "2026-07-21T03:13:26.653Z",
+  "method": "symlink",
+  "scope": "project",
+  "agents": [
+    "antigravity",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "continue"
+  ]
+}

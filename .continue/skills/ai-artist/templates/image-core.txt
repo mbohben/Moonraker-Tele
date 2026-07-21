@@ -1,0 +1,1 @@
+[subject], [style], [composition], [quality] [parameters]
