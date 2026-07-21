@@ -1,16 +1,51 @@
+# Environment variables
+.env
+.env.*
+
+# Private configuration files
+secrets.conf
+telegram_secrets.conf
+telegram.conf
+*.secret
+*.pem
+*.key
+
+# IDE editor files
+.vscode/
+.idea/
+
+# OS junk
+Thumbs.db
+.DS_Store
+$RECYCLE.BIN/
+
+# Python
 venv
-.idea
-.agent
-.agents
-.codex
-.continue
-.gemini
-.pytest_cache
-.github
 __pycache__
-timelapse
+*.py[cod]
+*.pyo
+
+# Logs
 logs
 telegram.log
 telegram_dev.conf
-secrets_dev.conf
+
+# Build
+dist
+build
+*.egg
+*.egg-info
+
+# Test
+*.log
+*.sqlite3
+
+# Misc
 .mypy_cache
+timelapse
+
+# Agent generated files
+.agent/
+.codex/
+.continue/
+.gemini/
